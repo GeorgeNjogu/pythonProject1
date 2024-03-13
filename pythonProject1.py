@@ -63,5 +63,48 @@ elif country=="Ugandan":
 else:
     print("not selected")
 
+number = 6
+if number  % 2 == 0 :
+    print("even")
+else:
+    print("odd")
+#casting
+first_name = "George"
+last_name = "Njogu"
+full_name=first_name+" "+last_name
+print(full_name)
+
+#int and string
+
+first_name = "George"
+last_name = 9
+full_name=first_name+str(last_name)
+
+#string to integer
+pens_total=40
+books_total="50"
+grand_total=str(pens_total)+books_total
+print("overall is:" ,grand_total)
+
+#float to string
+bucket=20.0
+book="50.0"
+total=bucket+float(book)
+print("total is:",total,"shillings")
+#or
+bucket=80
+book="50.0"
+total=bucket+float(book)
+result="total is:"+str(total)+"Shillings"
+print(result)
+
+#LOOPING
+#while loop
+i=1
+while i<=10:
+    print(i)
+    i += 2
+    #
+
 
 
