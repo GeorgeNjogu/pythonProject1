@@ -104,7 +104,60 @@ i=1
 while i<=10:
     print(i)
     i += 2
-    #
+
+
+"""
+country="Kenya"
+citizen=input("Citizen1:enter country:")
+while country=="Kenyan":
+    print("allowed")
+    country=input("citizen2:enter country:")
+else:
+    print("not allowed")
+    country = input("next citizen:enter country:")
+    while country=="Ugandan":
+        print("not allowed")
+        country = input("next citizen:enter country:")
+    else:
+        print("allowed")
+        country = input("next citizen:enter country:")
+"""
+
+visitors=int(input("enter the number of visitors:"))
+ugno=0
+kenyanno=0
+counter=1
+while counter<=visitors:
+    nationality =input("first person:enter country:")
+    if nationality=="Kenyan":
+        kenyanno+=1
+        print("allowed")
+        counter+=1
+    else:
+         ugno+=1
+         print("not allowed")
+         counter+=1
+
+print("number of visitors is:",visitors)
+print("number of kenyans is:",kenyanno)
+print("number of ugandans is:",ugno)
 
 
 
+
+
+
+
+
+
+
+
+
+
+"""
+citizen1=input("citizen1:")
+while country=="Ugandan":
+    print("not allowed")
+    citizen1=input("you must be Kenyan")
+    print("allowed")
+"""
