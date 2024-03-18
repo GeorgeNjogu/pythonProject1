@@ -154,10 +154,4 @@ print("number of ugandans is:",ugno)
 
 
 
-"""
-citizen1=input("citizen1:")
-while country=="Ugandan":
-    print("not allowed")
-    citizen1=input("you must be Kenyan")
-    print("allowed")
-"""
+
